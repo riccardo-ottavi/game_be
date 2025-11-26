@@ -1,0 +1,18 @@
+{
+  "name": "game_be",
+  "version": "1.0.0",
+  "description": "my 4fun project",
+  "license": "ISC",
+  "author": "Riccardo Ottavi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
+  }
+}
